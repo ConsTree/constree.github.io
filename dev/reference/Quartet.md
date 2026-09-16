@@ -49,9 +49,10 @@ unrooted.
 ## Details
 
 Where the majority-rule consensus minimizes the sum of Robinson-Foulds
-distances to the input trees, `Quartet()` finds an approximate median
-tree under the symmetric quartet distance (Takazawa et al. 2026) , which
-counts both false-positive and false-negative resolved quartets equally.
+distances to the input trees (Barthélemy and McMorris 1986) ,
+`Quartet()` finds an approximate median tree under the symmetric quartet
+distance (Estabrook et al. 1985; Takazawa et al. 2026) , which counts
+both false-positive and false-negative resolved quartets equally.
 
 Because the quartet distance gives greater weight to deep branches
 (which resolve more quartets), quartet consensus trees tend to be more
@@ -62,6 +63,15 @@ The function supports trees with up to 100 tips.
 
 ## References
 
+Barthélemy J, McMorris FR (1986). “The median procedure for n-trees.”
+*Journal of Classification*, **3**(2), 329–334.
+[doi:10.1007/BF01894194](https://doi.org/10.1007/BF01894194) .  
+  
+Estabrook GF, McMorris FR, Meacham CA (1985). “Comparison of undirected
+phylogenetic trees based on subtrees of four evolutionary units.”
+*Systematic Zoology*, **34**(2), 193–200.
+[doi:10.2307/2413326](https://doi.org/10.2307/2413326) .  
+  
 Takazawa Y, Takeda A, Hayamizu M, Gascuel O (2026). “Outperforming the
 majority-rule consensus tree using fine-grained dissimilarity measures.”
 *bioRxiv*.

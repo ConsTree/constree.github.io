@@ -27,8 +27,7 @@ rooted as in the first entry of `trees`.
 ## Details
 
 The implementation builds upon the `greedyConsensusFast` algorithm of
-(Jansson et al. 2016-09) ; please cite that paper when using this
-method.
+(Jansson et al. 2016) ; please cite that paper when using this method.
 
 ## References
 
@@ -41,8 +40,8 @@ American Mathematical Society.
   
 Felsenstein J (1993). “PHYLIP.” <https://phylipweb.github.io/phylip/>.  
   
-Jansson J, Shen C, Sung W (2016-09). “Improved algorithms for
-constructing consensus trees.” *Journal of the ACM*, **63**(3), 1–24.
+Jansson J, Shen C, Sung W (2016). “Improved algorithms for constructing
+consensus trees.” *Journal of the ACM*, **63**(3), 1–24.
 [doi:10.1145/2925985](https://doi.org/10.1145/2925985) .
 
 ## See also

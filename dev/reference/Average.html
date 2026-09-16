@@ -186,13 +186,14 @@ least-squares search (Day 1987)
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="va">trees</span> <span class="op">&lt;-</span> <span class="fu">ape</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/ape/man/rtree.html" class="external-link">rmtree</a></span><span class="op">(</span><span class="fl">5</span>, <span class="fl">8</span><span class="op">)</span>    <span class="co"># five random eight-leaf trees</span></span></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/Random.html" class="external-link">set.seed</a></span><span class="op">(</span><span class="fl">5</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="va">trees</span> <span class="op">&lt;-</span> <span class="fu">ape</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/ape/man/rtree.html" class="external-link">rmtree</a></span><span class="op">(</span><span class="fl">5</span>, <span class="fl">8</span><span class="op">)</span>    <span class="co"># five random eight-leaf trees</span></span></span>
 <span class="r-in"><span><span class="fu">Average</span><span class="op">(</span><span class="va">trees</span><span class="op">)</span>                <span class="co"># fast (balanced minimum evolution) default</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> Phylogenetic tree with 8 tips and 6 internal nodes.</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> Tip labels:</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   t5, t6, t2, t4, t7, t3, ...</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   t3, t7, t4, t8, t1, t2, ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> Unrooted; includes branch length(s).</span>
 <span class="r-in"><span><span class="co"># \donttest{</span></span></span>
@@ -210,7 +211,7 @@ least-squares search (Day 1987)
 <span class="r-out co"><span class="r-pr">#&gt;</span> Phylogenetic tree with 8 tips and 6 internal nodes.</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> Tip labels:</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>   t5, t6, t4, t1, t8, t7, ...</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>   t3, t1, t7, t5, t2, t8, ...</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> Unrooted; includes branch length(s).</span>
 <span class="r-in"><span><span class="co"># }</span></span></span>

@@ -35,7 +35,7 @@ leaves.” *Journal of Classification*, **2**(1), 7–28.
 [doi:10.1007/BF01908061](https://doi.org/10.1007/BF01908061) .  
   
 Sokal RR, Rohlf FJ (1981). “Taxonomic congruence in the Leptopodomorpha
-re-examined.” *Systematic Zoology*, **30**(3), 309.
+re-examined.” *Systematic Zoology*, **30**(3), 309–325.
 [doi:10.2307/2413252](https://doi.org/10.2307/2413252) .
 
 ## See also
