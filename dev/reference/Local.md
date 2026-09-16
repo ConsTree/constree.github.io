@@ -34,8 +34,8 @@ separate any pair of trees), a star tree is returned.
 
 ## Details
 
-The implementation builds on the algorithms of (Jansson et al. 2018) ,
-which generalize the "RV-II" type consensus of Kannan et al. (1998) ;
+The implementation builds on the algorithms of Jansson et al. (2018) ,
+which generalize the RV-II type consensus of Kannan et al. (1998) ;
 please cite both papers when using this method.
 
 Because the algorithm is exponential, `Local()` is limited to `n <= 20`
