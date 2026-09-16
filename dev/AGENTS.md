@@ -68,7 +68,7 @@ pattern — only the C++ selection logic differs:
 | [`Frequency()`](https://constree.github.io/dev/reference/Frequency.md) | selection.R | FACT2/FDCT `freqdiff.h` | property-validated (`dev/oracle/freqdiff/`) |
 | [`Adams()`](https://constree.github.io/dev/reference/Adams.md) | adams.R (Rcpp) | Jansson, Li & Sung 2017 (`src/cons_adams.cpp`) | slow-Adams clade-oracle exact |
 | `Local(type=)` | local.R (Rcpp) | FACT2/FDCT `local_consensus.h` (Jansson, Rajaby & Sung 2018) | FDCT-oracle exact; **≤20 leaves**; see runtime caveat |
-| [`RStar()`](https://constree.github.io/dev/reference/RStar.md) | rstar.R (Rcpp) | Jansson et al. 2016 | definition-exact (strong-cluster oracle); no leaf cap (~`O(kn³)` time, `O(kn²)` memory) |
+| [`RStar()`](https://constree.github.io/dev/reference/RStar.md) | rstar.R (Rcpp) | Jansson et al. 2016 | definition-exact (strong-cluster oracle); no leaf cap; `O(n²)` for k = 2, else ~`O(kn³)` time, `O(kn²)` memory |
 | [`Quartet()`](https://constree.github.io/dev/reference/Quartet.md) | Quartet.R (Rcpp) | Quartet pkg (ported) | brute-force oracle (n=5); ≤100 tips |
 | [`Average()`](https://constree.github.io/dev/reference/Average.md) | Average.R | Lapointe & Cucumel | user-authored (path-length LS / BME) |
 | `BHV…()` | BHV.R (Rcpp) | BHV geodesic | distance / Fréchet-mean utilities |
@@ -134,7 +134,7 @@ split-string sets (`splitSet()` helper). Idempotence —
 
 ``` bash
 # Install to an isolated library (from the package root)
-R.exe CMD INSTALL --library=.agent-cons .
+R.exe CMD INSTALL --preclean --library=.agent-cons .
 
 # Regenerate Rd after any roxygen change
 Rscript.exe -e "roxygen2::roxygenise()"

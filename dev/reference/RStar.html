@@ -17,7 +17,7 @@ set of rooted trees."><meta name="robots" content="noindex"><!-- Global site tag
 
     <a class="navbar-brand me-2" href="../index.html">ConsTree</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">1.0.0.9000</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">1.0.0.9001</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,13 +81,41 @@ Then \(R^*\) is the most resolved tree that displays no resolved triplet
 outside \(R_{maj}\).</p>
 <p>\(R^*\) is always a refinement of the majority-rule consensus:
 every majority clade also appears in <code>RStar()</code>.</p>
+<p><code>RStar()</code> finds the strong clusters of \(R_{maj}\) among candidate clusters
+built from triplet similarities (Jansson and Sung 2013; Jansson et al. 2016)
+.
+For two trees it takes \(O(n^2)\) time (Jansson et al. 2016)
+,
+testing each candidate with the criterion of
+Jansson and Sung (2013)
+.
+For more trees it tallies every triplet directly
+(Bryant 2003)
+, in \(O(kn^3)\) time;
+this outpaces the \(O(n^2 \log^{k+2} n)\) algorithm of
+Jansson et al. (2016)
+ unless \(k\) is very small.
+Set <code>options(ConsTree.threads = )</code> to count triplets on several threads.</p>
     </div>
     <div class="section level2">
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
-    <p>Degnan JH, DeGiorgio M, Bryant D, Rosenberg NA (2009).
+    <p>Bryant D (2003).
+“A classification of consensus methods for phylogenetics.”
+In Janowitz MF, Lapointe F, McMorris FR, Mirkin B, Roberts FS (eds.), <em>Bioconsensus</em>, volume 61 of <em>DIMACS Series in Discrete Mathematics and Theoretical Computer Science</em>, 163–184.
+American Mathematical Society.
+<a href="https://doi.org/10.1090/dimacs/061/11" class="external-link">doi:10.1090/dimacs/061/11</a>
+.<br><br> Degnan JH, DeGiorgio M, Bryant D, Rosenberg NA (2009).
 “Properties of consensus methods for inferring species trees from gene trees.”
 <em>Systematic Biology</em>, <b>58</b>(1), 35–54.
 <a href="https://doi.org/10.1093/sysbio/syp008" class="external-link">doi:10.1093/sysbio/syp008</a>
+.<br><br> Jansson J, Sung W (2013).
+“Constructing the R* consensus tree of two trees in subcubic time.”
+<em>Algorithmica</em>, <b>66</b>(2), 329–345.
+<a href="https://doi.org/10.1007/s00453-012-9639-1" class="external-link">doi:10.1007/s00453-012-9639-1</a>
+.<br><br> Jansson J, Sung W, Vu H, Yiu S (2016).
+“Faster algorithms for computing the R* consensus tree.”
+<em>Algorithmica</em>, <b>76</b>(4), 1224–1244.
+<a href="https://doi.org/10.1007/s00453-016-0122-2" class="external-link">doi:10.1007/s00453-016-0122-2</a>
 .</p>
     </div>
     <div class="section level2">

@@ -13,7 +13,7 @@
 
     <a class="navbar-brand me-2" href="index.html">ConsTree</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">1.0.0.9000</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">1.0.0.9001</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -126,7 +126,7 @@
 </tr><tr><td><code><a href="reference/RStar.html">RStar()</a></code></td>
 <td>rstar.R (Rcpp)</td>
 <td>Jansson et al. 2016</td>
-<td>definition-exact (strong-cluster oracle); no leaf cap (~<code>O(kn³)</code> time, <code>O(kn²)</code> memory)</td>
+<td>definition-exact (strong-cluster oracle); no leaf cap; <code>O(n²)</code> for k = 2, else ~<code>O(kn³)</code> time, <code>O(kn²)</code> memory</td>
 </tr><tr><td><code><a href="reference/Quartet.html">Quartet()</a></code></td>
 <td>Quartet.R (Rcpp)</td>
 <td>Quartet pkg (ported)</td>
@@ -177,7 +177,7 @@ majority ∥ loose            (incomparable)</code></pre>
 <strong>Do not <code>devtools::load_all()</code></strong> for validation — install to an isolated library and test against it (avoids DLL/namespace surprises; matches how the oracle driver loads the package).</li>
 <li>PowerShell aliases <code>R</code> to <code>Invoke-History</code>; <strong>always call <code>R.exe</code> / <code>Rscript.exe</code></strong>.</li>
 </ul><div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="co"># Install to an isolated library (from the package root)</span></span>
-<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a><span class="ex">R.exe</span> CMD INSTALL <span class="at">--library</span><span class="op">=</span>.agent-cons .</span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a><span class="ex">R.exe</span> CMD INSTALL <span class="at">--preclean</span> <span class="at">--library</span><span class="op">=</span>.agent-cons .</span>
 <span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a></span>
 <span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a><span class="co"># Regenerate Rd after any roxygen change</span></span>
 <span id="cb3-5"><a href="#cb3-5" tabindex="-1"></a><span class="ex">Rscript.exe</span> <span class="at">-e</span> <span class="st">"roxygen2::roxygenise()"</span></span>

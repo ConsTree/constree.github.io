@@ -33,7 +33,7 @@ consensus trees. Comprehensive R Archive Network, Vienna. doi:
     @Manual{Smith2026,
       title = {ConsTree: fast algorithms for phylogenetic consensus trees},
       author = {Martin R. Smith and Jesper Jansson and Wing-Kin Sung and Ramesh Rajaby and Chuanqi Shen},
-      note = {R package version 1.0.0.9000},
+      note = {R package version 1.0.0.9001},
       year = {2026},
       doi = {10.32614/CRAN.package.ConsTree},
       organization = {Comprehensive R Archive Network},
