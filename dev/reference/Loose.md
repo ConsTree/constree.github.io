@@ -33,7 +33,7 @@ and so be excluded from the loose consensus; yet a split that occurs in
 just one tree is retained if no other tree contradicts it.
 
 This implementation builds on the `looseConsensusFast` algorithm of
-(Jansson et al. 2016) ; please cite that paper when using this method.
+Jansson et al. (2016) ; please cite that paper when using this method.
 
 ## References
 

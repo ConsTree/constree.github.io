@@ -2,9 +2,9 @@
 
 `Majority()` is a simple alias of
 [`TreeTools::Consensus()`](https://ms609.github.io/TreeTools/reference/Consensus.html),
-which computes the majority-rule consensus (Margush and McMorris 1981) :
-the tree that contains each split that occurs in more than `p` of the
-input trees.
+which computes the majority-rule consensus: the tree that contains each
+split that occurs in more than `p` of the input trees (Margush and
+McMorris 1981) .
 
 ## Usage
 
