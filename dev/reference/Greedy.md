@@ -27,7 +27,8 @@ rooted as in the first entry of `trees`.
 ## Details
 
 The implementation builds upon the `greedyConsensusFast` algorithm of
-(Jansson et al. 2016) ; please cite that paper when using this method.
+(Jansson et al. 2016-09) ; please cite that paper when using this
+method.
 
 ## References
 
@@ -38,12 +39,11 @@ Discrete Mathematics and Theoretical Computer Science*, 163–184.
 American Mathematical Society.
 [doi:10.1090/dimacs/061/11](https://doi.org/10.1090/dimacs/061/11) .  
   
-Felsenstein J (1993). “Phylip.” <https://phylipweb.github.io/phylip/>.  
+Felsenstein J (1993). “PHYLIP.” <https://phylipweb.github.io/phylip/>.  
   
-Jansson J, Sung W, Vu H, Yiu S (2016). “Faster algorithms for computing
-the R\* consensus tree.” *Algorithmica*, **76**(4), 1224–1244.
-[doi:10.1007/s00453-016-0122-2](https://doi.org/10.1007/s00453-016-0122-2)
-.
+Jansson J, Shen C, Sung W (2016-09). “Improved algorithms for
+constructing consensus trees.” *Journal of the ACM*, **63**(3), 1–24.
+[doi:10.1145/2925985](https://doi.org/10.1145/2925985) .
 
 ## See also
 

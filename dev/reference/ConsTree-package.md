@@ -1,10 +1,15 @@
 # Fast algorithms for phylogenetic consensus trees
 
-`ConsTree` provides a comprehensive and efficient suite of methods for
-summarizing a set of phylogenetic trees as a single consensus tree. It
-builds on the tree and split infrastructure of
+`ConsTree` provides efficient methods for the construction of
+phylogenetic consensus trees. Methods include strict, majority-rule,
+majority-rule (+), loose (combinable component / semi-strict), greedy,
+Adams, frequency difference, R\*, and local consensus.
+
+## Details
+
+It builds on the tree and split infrastructure of
 [TreeTools](https://ms609.github.io/TreeTools/), and implements
-asymptotically efficient consensus algorithms (Jansson et al. 2016) .
+asymptotically efficient consensus algorithms (Jansson et al. 2016-09) .
 
 ## See also
 

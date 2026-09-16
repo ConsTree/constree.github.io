@@ -29,13 +29,13 @@ cite both this and Dong et al. (2010) when using this method.
 
 ## References
 
-Dong J, Fernández-Baca D, McMorris FR, Powers RC (2010). “Majority-Rule
+Dong J, Fernández-Baca D, McMorris FR, Powers RC (2010). “Majority-rule
 (+) consensus trees.” *Mathematical Biosciences*, **228**(1), 10–15.
 [doi:10.1016/j.mbs.2010.08.002](https://doi.org/10.1016/j.mbs.2010.08.002)
 .  
   
-Jansson J, Rajaby R, Shen C, Sung W (2018). “Algorithms for the Majority
-Rule (+) Consensus Tree and the Frequency Difference Consensus Tree.”
+Jansson J, Rajaby R, Shen C, Sung W (2018). “Algorithms for the majority
+rule (+) consensus tree and the frequency difference consensus tree.”
 *IEEE/ACM Transactions on Computational Biology and Bioinformatics*,
 **15**(1), 15–26.
 [doi:10.1109/TCBB.2016.2609923](https://doi.org/10.1109/TCBB.2016.2609923)

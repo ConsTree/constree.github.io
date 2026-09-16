@@ -48,8 +48,8 @@ local consensus trees.” *AIMS Medical Science*, **5**(2), 181–203.
 [doi:10.3934/medsci.2018.2.181](https://doi.org/10.3934/medsci.2018.2.181)
 .  
   
-Kannan S, Warnow T, Yooseph S (1998). “Computing the Local Consensus of
-Trees.” *SIAM Journal on Computing*, **27**(6), 1695–1724.
+Kannan S, Warnow T, Yooseph S (1998). “Computing the local consensus of
+trees.” *SIAM Journal on Computing*, **27**(6), 1695–1724.
 [doi:10.1137/S0097539795287642](https://doi.org/10.1137/S0097539795287642)
 .
 

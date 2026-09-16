@@ -265,7 +265,7 @@ only differ in the position of rogue taxa (Smith, 2022).
 
 Smith, M. R. (2019). Bayesian and parsimony approaches reconstruct
 informative trees from simulated morphological datasets. *Biology
-Letters*, *15*, 20180632. <https://doi.org/10.1098/rsbl.2018.0632>
+Letters*, *15*(2), 20180632. <https://doi.org/10.1098/rsbl.2018.0632>
 
 Smith, M. R. (2020). Information theoretic Generalized Robinson–Foulds
 metrics for comparing phylogenetic trees. *Bioinformatics*, *36*(20),

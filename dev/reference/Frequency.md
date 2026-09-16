@@ -36,13 +36,13 @@ This implementation builds on the FDCT algorithm of Jansson et al.
 ## References
 
 Goloboff PA, Farris JS, Källersjö M, Oxelman B, Ramírez MJ, Szumik CA
-(2003). “Improvements to Resampling Measures of Group Support.”
+(2003). “Improvements to resampling measures of group support.”
 *Cladistics*, **19**(4), 324–332.
 [doi:10.1111/j.1096-0031.2003.tb00376.x](https://doi.org/10.1111/j.1096-0031.2003.tb00376.x)
 .  
   
-Jansson J, Sung W, Tabatabaee SA, Yang Y (2026). “A Faster Algorithm for
-Constructing the Frequency Difference Consensus Tree.” *Journal of
+Jansson J, Sung W, Tabatabaee SA, Yang Y (2026). “A faster algorithm for
+constructing the frequency difference consensus tree.” *Journal of
 Computer and System Sciences*, **161**, 103831.
 [doi:10.1016/j.jcss.2026.103831](https://doi.org/10.1016/j.jcss.2026.103831)
 .
