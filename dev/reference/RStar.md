@@ -41,7 +41,7 @@ et al. 2016) . For two trees it takes \\O(n^2)\\ time (Jansson et al.
 (2013) . For more trees it tallies every triplet directly (Bryant 2003)
 , in \\O(kn^3)\\ time; this outpaces the \\O(n^2 \log^{k+2} n)\\
 algorithm of Jansson et al. (2016) unless \\k\\ is very small. Set
-`options(ConsTree.threads = )` to count triplets on several threads.
+`options(mc.cores = )` to count triplets on several threads.
 
 ## References
 

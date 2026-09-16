@@ -56,7 +56,7 @@ The algorithm pools all splits observed across input trees, computes
 pairwise transfer distances between them, and greedily adds or removes
 splits to minimize total transfer dissimilarity cost. The approach
 follows Takazawa et al. (2026) , reimplemented for 'ConsTree'
-infrastructure.
+infrastructure. Set `options(mc.cores = )` to use several threads.
 
 ## References
 
