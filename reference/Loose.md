@@ -30,10 +30,10 @@ contrast to the majority-rule consensus
 ([`Majority()`](https://constree.github.io/reference/Majority.md)), a
 split present in most trees may still be contradicted by a minority, and
 so be excluded from the loose consensus; yet a split that occurs in just
-one tree will be is retained if no other tree contradicts it.
+one tree is retained if no other tree contradicts it.
 
 This implementation builds on the `looseConsensusFast` algorithm of
-(Jansson et al. 2016) ; please cite that paper when using this method.
+Jansson et al. (2016) ; please cite that paper when using this method.
 
 ## References
 

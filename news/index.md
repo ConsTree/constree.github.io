@@ -1,6 +1,14 @@
 # Changelog
 
+## ConsTree 1.0.1 (2026-09-16)
+
+- Fix omissions in references and attribution.
+- Optimize [`RStar()`](https://constree.github.io/reference/RStar.md),
+  implementing Jansson et al. (2016) and parallelization.
+
 ## ConsTree 1.0.0 (2026-09-07)
+
+CRAN release: 2026-09-15
 
 First public release.
 

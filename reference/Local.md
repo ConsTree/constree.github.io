@@ -1,6 +1,6 @@
 # Local consensus tree
 
-`Local()` returns the local consensus (Jansson et al. 2018) of a set of
+`Local()` returns the local consensus (Kannan et al. 1998) of a set of
 rooted trees. The local consensus is the most conservative tree
 consistent with the rooted triplets shared by every input tree. The
 minimum rooted local consensus (MinRLC, `type = "rooted"`) and the
@@ -34,8 +34,9 @@ separate any pair of trees), a star tree is returned.
 
 ## Details
 
-The implementation builds on the algorithms of (Jansson et al. 2018) ;
-please cite that paper when using this method.
+The implementation builds on the algorithms of Jansson et al. (2018) ,
+which generalize the RV-II type consensus of Kannan et al. (1998) ;
+please cite both papers when using this method.
 
 Because the algorithm is exponential, `Local()` is limited to `n <= 20`
 leaves. Running time is faster when input trees are more congruent.
@@ -45,6 +46,11 @@ leaves. Running time is faster when input trees are more congruent.
 Jansson J, Rajaby R, Sung W (2018). “Minimal phylogenetic supertrees and
 local consensus trees.” *AIMS Medical Science*, **5**(2), 181–203.
 [doi:10.3934/medsci.2018.2.181](https://doi.org/10.3934/medsci.2018.2.181)
+.  
+  
+Kannan S, Warnow T, Yooseph S (1998). “Computing the local consensus of
+trees.” *SIAM Journal on Computing*, **27**(6), 1695–1724.
+[doi:10.1137/S0097539795287642](https://doi.org/10.1137/S0097539795287642)
 .
 
 ## See also

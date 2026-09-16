@@ -15,7 +15,7 @@ to a set of input trees, using a greedy add-and-prune heuristic."><!-- Global si
 
     <a class="navbar-brand me-2" href="../index.html">ConsTree</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.0.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.0.1</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@ to a set of input trees, using a greedy add-and-prune heuristic."><!-- Global si
   <main id="main" class="col-md-9"><div class="page-header">
 
       <h1>Consensus tree minimizing transfer distance</h1>
-      <small class="dont-index">Source: <a href="https://github.com/ms609/ConsTree/blob/1.0.0/R/transfer.R" class="external-link"><code>R/transfer.R</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/ms609/ConsTree/blob/main/R/transfer.R" class="external-link"><code>R/transfer.R</code></a></small>
       <div class="d-none name"><code>Transfer.Rd</code></div>
     </div>
 
@@ -92,7 +92,9 @@ potentially lower quality).</p></dd>
     <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
     <p>Unlike the majority-rule consensus, which minimizes Robinson-Foulds
-distance and can be highly unresolved when phylogenetic signal is low,
+distance (Barthélemy and McMorris 1986)
+ and can be highly unresolved
+when phylogenetic signal is low,
 <code>Transfer()</code> uses the finer-grained transfer distance
 (Lemoine et al. 2018)
  to construct a more resolved consensus
@@ -102,11 +104,16 @@ pairwise transfer distances between them, and greedily adds or removes
 splits to minimize total transfer dissimilarity cost.  The approach
 follows Takazawa et al. (2026)
 , reimplemented for
-'ConsTree' infrastructure.</p>
+'ConsTree' infrastructure.
+Set <code>options(mc.cores = )</code> to use several threads.</p>
     </div>
     <div class="section level2">
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
-    <p>Lemoine F, Domelevo Entfellner J, Wilkinson E, Correia D, Dávila Felipe M, De Oliveira T, Gascuel O (2018).
+    <p>Barthélemy J, McMorris FR (1986).
+“The median procedure for n-trees.”
+<em>Journal of Classification</em>, <b>3</b>(2), 329–334.
+<a href="https://doi.org/10.1007/BF01894194" class="external-link">doi:10.1007/BF01894194</a>
+.<br><br> Lemoine F, Domelevo Entfellner J, Wilkinson E, Correia D, Dávila Felipe M, De Oliveira T, Gascuel O (2018).
 “Renewing Felsenstein's phylogenetic bootstrap in the era of big data.”
 <em>Nature</em>, <b>556</b>(7702), 452–456.
 <a href="https://doi.org/10.1038/s41586-018-0043-0" class="external-link">doi:10.1038/s41586-018-0043-0</a>
@@ -142,7 +149,7 @@ follows Takazawa et al. (2026)
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by <a href="https://smithlabdurham.github.io/" class="external-link">Martin R. Smith</a>.</p>
+  <p>Developed by <a href="https://smithlabdurham.github.io/" class="external-link">Martin R. Smith</a>, Jesper Jansson, Wing-Kin Sung, Ramesh Rajaby, Chuanqi Shen.</p>
 </div>
 
 <div class="pkgdown-footer-right">

@@ -17,7 +17,7 @@ heuristic."><!-- Global site tag (gtag.js) - Google Analytics --><script async s
 
     <a class="navbar-brand me-2" href="../index.html">ConsTree</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.0.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.0.1</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@ heuristic."><!-- Global site tag (gtag.js) - Google Analytics --><script async s
   <main id="main" class="col-md-9"><div class="page-header">
 
       <h1>Consensus tree that minimizes quartet distance</h1>
-      <small class="dont-index">Source: <a href="https://github.com/ms609/ConsTree/blob/1.0.0/R/Quartet.R" class="external-link"><code>R/Quartet.R</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/ms609/ConsTree/blob/main/R/Quartet.R" class="external-link"><code>R/Quartet.R</code></a></small>
       <div class="d-none name"><code>Quartet.Rd</code></div>
     </div>
 
@@ -90,8 +90,10 @@ unrooted.</p>
     <div class="section level2">
     <h2 id="details">Details<a class="anchor" aria-label="anchor" href="#details"></a></h2>
     <p>Where the majority-rule consensus minimizes the sum of Robinson-Foulds
-distances to the input trees, <code>Quartet()</code> finds an approximate median tree
-under the symmetric quartet distance (Takazawa et al. 2026)
+distances to the input trees (Barthélemy and McMorris 1986)
+,
+<code>Quartet()</code> finds an approximate median tree under the symmetric quartet
+distance (Estabrook et al. 1985; Takazawa et al. 2026)
 ,
 which counts both false-positive and false-negative resolved quartets
 equally.</p>
@@ -102,7 +104,15 @@ than majority-rule trees, especially when phylogenetic signal is low.</p>
     </div>
     <div class="section level2">
     <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a></h2>
-    <p>Takazawa Y, Takeda A, Hayamizu M, Gascuel O (2026).
+    <p>Barthélemy J, McMorris FR (1986).
+“The median procedure for n-trees.”
+<em>Journal of Classification</em>, <b>3</b>(2), 329–334.
+<a href="https://doi.org/10.1007/BF01894194" class="external-link">doi:10.1007/BF01894194</a>
+.<br><br> Estabrook GF, McMorris FR, Meacham CA (1985).
+“Comparison of undirected phylogenetic trees based on subtrees of four evolutionary units.”
+<em>Systematic Zoology</em>, <b>34</b>(2), 193–200.
+<a href="https://doi.org/10.2307/2413326" class="external-link">doi:10.2307/2413326</a>
+.<br><br> Takazawa Y, Takeda A, Hayamizu M, Gascuel O (2026).
 “Outperforming the majority-rule consensus tree using fine-grained dissimilarity measures.”
 <em>bioRxiv</em>.
 <a href="https://doi.org/10.64898/2026.03.16.712085" class="external-link">doi:10.64898/2026.03.16.712085</a>
@@ -151,7 +161,7 @@ than majority-rule trees, especially when phylogenetic signal is low.</p>
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by <a href="https://smithlabdurham.github.io/" class="external-link">Martin R. Smith</a>.</p>
+  <p>Developed by <a href="https://smithlabdurham.github.io/" class="external-link">Martin R. Smith</a>, Jesper Jansson, Wing-Kin Sung, Ramesh Rajaby, Chuanqi Shen.</p>
 </div>
 
 <div class="pkgdown-footer-right">

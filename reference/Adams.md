@@ -22,11 +22,11 @@ consensus tree.
 
 ## Details
 
-The Adams consensus places each species in the the smallest group to
-which it belongs on all input trees. Consequently, it may contain
-groupings that do not appear in any input tree#' This implementation
-builds on the algorithm of (Jansson et al. 2017) ; please cite this
-paper where you use this method.
+The Adams consensus places each species in the smallest group to which
+it belongs on all input trees. Consequently, it may contain groupings
+that do not appear in any input tree. This implementation builds on the
+algorithm of (Jansson et al. 2017) ; please cite this paper where you
+use this method.
 
 ## References
 

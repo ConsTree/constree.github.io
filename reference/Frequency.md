@@ -2,7 +2,7 @@
 
 `Frequency()` computes the frequency-difference consensus, which retains
 each split that occurs more often than every split that conflicts with
-it.
+it (Goloboff et al. 2003) .
 
 ## Usage
 
@@ -31,17 +31,20 @@ is contained within the greedy consensus
 ([`Greedy()`](https://constree.github.io/reference/Greedy.md)).
 
 This implementation builds on the FDCT algorithm of Jansson et al.
-(2024) ; please cite that paper when using this method.
+(2026) ; please cite that paper when using this method.
 
 ## References
 
-Jansson J, Sung W, Tabatabaee SA, Yang Y (2024). “A Faster Algorithm for
-Constructing the Frequency Difference Consensus Tree.” In Beyersdorff O,
-Kanté MM, Kupferman O, Lokshtanov D (eds.), *41st International
-Symposium on Theoretical Aspects of Computer Science (STACS 2024)*,
-volume 289 of *Leibniz International Proceedings in Informatics
-(LIPIcs)*, 43:1–43:17.
-[doi:10.4230/LIPIcs.STACS.2024.43](https://doi.org/10.4230/LIPIcs.STACS.2024.43)
+Goloboff PA, Farris JS, Källersjö M, Oxelman B, Ramírez MJ, Szumik CA
+(2003). “Improvements to resampling measures of group support.”
+*Cladistics*, **19**(4), 324–332.
+[doi:10.1111/j.1096-0031.2003.tb00376.x](https://doi.org/10.1111/j.1096-0031.2003.tb00376.x)
+.  
+  
+Jansson J, Sung W, Tabatabaee SA, Yang Y (2026). “A faster algorithm for
+constructing the frequency difference consensus tree.” *Journal of
+Computer and System Sciences*, **161**, 103831.
+[doi:10.1016/j.jcss.2026.103831](https://doi.org/10.1016/j.jcss.2026.103831)
 .
 
 ## See also

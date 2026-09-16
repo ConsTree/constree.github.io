@@ -86,7 +86,7 @@ the [‘Quartet’](https://ms609.github.io/Quartet/) package, which counts
 the resolved- and shared-quartet statistics between trees; and the BHV
 summaries relate to
 [‘distory’](https://cran.r-project.org/package=distory), which computes
-geodesic distances in the same treespace.
+geodesic distances in the same tree space.
 
 [‘Rogue’](https://ms609.github.io/Rogue/) identifies unstable wildcard
 leaves whose removal can improve the resolution and support of a

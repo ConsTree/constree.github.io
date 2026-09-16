@@ -1,8 +1,8 @@
 # Majority-rule (+) consensus tree
 
-`MajorityPlus()` computes the majority-rule (+) consensus (Jansson et
-al. 2016) , which displays each clade that occurs in more input trees
-than contradict it.
+`MajorityPlus()` computes the majority-rule (+) consensus (Dong et al.
+2010) , which displays each clade that occurs in more input trees than
+contradict it.
 
 ## Usage
 
@@ -22,11 +22,24 @@ MajorityPlus(trees)
 `MajorityPlus()` returns an object of class `phylo` denoting the
 majority-plus consensus tree, rooted as in the first entry of `trees`.
 
+## Details
+
+This implementation uses the algorithm of Jansson et al. (2018) ; please
+cite both this and Dong et al. (2010) when using this method.
+
 ## References
 
-Jansson J, Shen C, Sung W (2016). “Improved algorithms for constructing
-consensus trees.” *Journal of the ACM*, **63**(3), 1–24.
-[doi:10.1145/2925985](https://doi.org/10.1145/2925985) .
+Dong J, Fernández-Baca D, McMorris FR, Powers RC (2010). “Majority-rule
+(+) consensus trees.” *Mathematical Biosciences*, **228**(1), 10–15.
+[doi:10.1016/j.mbs.2010.08.002](https://doi.org/10.1016/j.mbs.2010.08.002)
+.  
+  
+Jansson J, Rajaby R, Shen C, Sung W (2018). “Algorithms for the majority
+rule (+) consensus tree and the frequency difference consensus tree.”
+*IEEE/ACM Transactions on Computational Biology and Bioinformatics*,
+**15**(1), 15–26.
+[doi:10.1109/TCBB.2016.2609923](https://doi.org/10.1109/TCBB.2016.2609923)
+.
 
 ## See also
 

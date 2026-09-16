@@ -143,13 +143,14 @@ Other consensus methods:
 ## Examples
 
 ``` r
+set.seed(5)
 trees <- ape::rmtree(5, 8)    # five random eight-leaf trees
 Average(trees)                # fast (balanced minimum evolution) default
 #> 
 #> Phylogenetic tree with 8 tips and 6 internal nodes.
 #> 
 #> Tip labels:
-#>   t5, t6, t2, t4, t7, t3, ...
+#>   t3, t7, t4, t8, t1, t2, ...
 #> 
 #> Unrooted; includes branch length(s).
 # \donttest{
@@ -167,7 +168,7 @@ if (requireNamespace("TreeSearch", quietly = TRUE) &&
 #> Phylogenetic tree with 8 tips and 6 internal nodes.
 #> 
 #> Tip labels:
-#>   t5, t6, t4, t1, t8, t7, ...
+#>   t3, t1, t7, t5, t2, t8, ...
 #> 
 #> Unrooted; includes branch length(s).
 # }

@@ -1,10 +1,10 @@
 # Greedy (extended majority-rule) consensus tree
 
-`Greedy()` computes the greedy consensus, also termed the extended
-majority-rule consensus (Bryant 2003) . Distinct splits are considered
-in decreasing order of their frequency across the input trees, breaking
-ties arbitrarily; each is added to the growing consensus if it is
-compatible with every split already accepted.
+`Greedy()` computes the greedy consensus (Felsenstein 1993) , also
+termed the extended majority-rule consensus (Bryant 2003) . Distinct
+splits are considered in decreasing order of their frequency across the
+input trees, breaking ties arbitrarily; each is added to the growing
+consensus if it is compatible with every split already accepted.
 
 ## Usage
 
@@ -37,6 +37,8 @@ Roberts FS (eds.), *Bioconsensus*, volume 61 of *DIMACS Series in
 Discrete Mathematics and Theoretical Computer Science*, 163–184.
 American Mathematical Society.
 [doi:10.1090/dimacs/061/11](https://doi.org/10.1090/dimacs/061/11) .  
+  
+Felsenstein J (1993). “PHYLIP.” <https://phylipweb.github.io/phylip/>.  
   
 Jansson J, Shen C, Sung W (2016). “Improved algorithms for constructing
 consensus trees.” *Journal of the ACM*, **63**(3), 1–24.

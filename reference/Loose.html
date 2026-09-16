@@ -19,7 +19,7 @@ It contains every split that is not contradicted by any input tree."><!-- Global
 
     <a class="navbar-brand me-2" href="../index.html">ConsTree</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.0.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">1.0.1</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@ It contains every split that is not contradicted by any input tree."><!-- Global
   <main id="main" class="col-md-9"><div class="page-header">
 
       <h1>Loose consensus tree</h1>
-      <small class="dont-index">Source: <a href="https://github.com/ms609/ConsTree/blob/1.0.0/R/selection.R" class="external-link"><code>R/selection.R</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/ms609/ConsTree/blob/main/R/selection.R" class="external-link"><code>R/selection.R</code></a></small>
       <div class="d-none name"><code>Loose.Rd</code></div>
     </div>
 
@@ -77,10 +77,10 @@ rooted as in the first entry of <code>trees</code>.</p>
     <p>The loose consensus refines the strict consensus (<code><a href="Strict.html">Strict()</a></code>).
 In contrast to the majority-rule consensus (<code><a href="Majority.html">Majority()</a></code>), a split present
 in most trees may still be contradicted by a minority, and so be excluded
-from the loose consensus; yet a split that occurs in just one tree will be
-is retained if no other tree contradicts it.</p>
+from the loose consensus; yet a split that occurs in just one tree is
+retained if no other tree contradicts it.</p>
 <p>This implementation builds on the <code>looseConsensusFast</code>
-algorithm of (Jansson et al. 2016)
+algorithm of Jansson et al. (2016)
 ; please cite that
 paper when using this method.</p>
     </div>
@@ -132,7 +132,7 @@ paper when using this method.</p>
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by <a href="https://smithlabdurham.github.io/" class="external-link">Martin R. Smith</a>.</p>
+  <p>Developed by <a href="https://smithlabdurham.github.io/" class="external-link">Martin R. Smith</a>, Jesper Jansson, Wing-Kin Sung, Ramesh Rajaby, Chuanqi Shen.</p>
 </div>
 
 <div class="pkgdown-footer-right">

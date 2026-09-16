@@ -47,18 +47,23 @@ A tree of class `phylo`.
 ## Details
 
 Unlike the majority-rule consensus, which minimizes Robinson-Foulds
-distance and can be highly unresolved when phylogenetic signal is low,
-`Transfer()` uses the finer-grained transfer distance (Lemoine et al.
-2018) to construct a more resolved consensus tree.
+distance (Barthélemy and McMorris 1986) and can be highly unresolved
+when phylogenetic signal is low, `Transfer()` uses the finer-grained
+transfer distance (Lemoine et al. 2018) to construct a more resolved
+consensus tree.
 
 The algorithm pools all splits observed across input trees, computes
 pairwise transfer distances between them, and greedily adds or removes
 splits to minimize total transfer dissimilarity cost. The approach
 follows Takazawa et al. (2026) , reimplemented for 'ConsTree'
-infrastructure.
+infrastructure. Set `options(mc.cores = )` to use several threads.
 
 ## References
 
+Barthélemy J, McMorris FR (1986). “The median procedure for n-trees.”
+*Journal of Classification*, **3**(2), 329–334.
+[doi:10.1007/BF01894194](https://doi.org/10.1007/BF01894194) .  
+  
 Lemoine F, Domelevo Entfellner J, Wilkinson E, Correia D, Dávila Felipe
 M, De Oliveira T, Gascuel O (2018). “Renewing Felsenstein's phylogenetic
 bootstrap in the era of big data.” *Nature*, **556**(7702), 452–456.
