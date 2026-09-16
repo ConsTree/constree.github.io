@@ -13,7 +13,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">ConsTree</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">1.0.0.9001</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="In-development version">1.0.0.9000</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,8 +42,7 @@
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="1.0.0.9000" id="constree-1009000-development">ConsTree 1.0.0.9000 (development)<a class="anchor" aria-label="anchor" href="#constree-1009000-development"></a></h2>
 <ul><li>Fix omissions in references and attribution.</li>
-<li>
-<code><a href="../reference/RStar.html">RStar()</a></code> is much faster: O(n²) for two trees, after Jansson et al. (2016) (about 200× faster at 2000 leaves), and 2–11× faster for more trees, with optional multithreading via <code>options(ConsTree.threads)</code> or <code>mc.cores</code>.</li>
+<li>Optimize <code><a href="../reference/RStar.html">RStar()</a></code>, implementing Jansson et al. (2016) and parallelization.</li>
 </ul></div>
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="1.0.0" id="constree-100-2026-09-07">ConsTree 1.0.0 (2026-09-07)<a class="anchor" aria-label="anchor" href="#constree-100-2026-09-07"></a></h2><p class="text-muted">CRAN release: 2026-09-15</p>
