@@ -2,7 +2,7 @@
 
 `Strict()` returns the strict consensus of a set of trees: the tree that
 contains exactly those splits (clades) present in every input tree (Day
-1985) .
+1985; Sokal and Rohlf 1981) .
 
 ## Usage
 
@@ -30,14 +30,13 @@ with `p = 1`.
 
 ## References
 
-Adummy A (2026). “Some keys from package ConsTree are not avalable.”
-Failed to insert reference with keys: Day1985, Sokal1981 from package =
-'ConsTree'. Possible cause - missing REFERENCES.bib in package
-'ConsTree' or 'ConsTree' not installed.  
-  
 Day WHE (1985). “Optimal algorithms for comparing trees with labeled
 leaves.” *Journal of Classification*, **2**(1), 7–28.
-[doi:10.1007/BF01908061](https://doi.org/10.1007/BF01908061) .
+[doi:10.1007/BF01908061](https://doi.org/10.1007/BF01908061) .  
+  
+Sokal RR, Rohlf FJ (1981). “Taxonomic Congruence in the Leptopodomorpha
+Re-Examined.” *Systematic Zoology*, **30**(3), 309.
+[doi:10.2307/2413252](https://doi.org/10.2307/2413252) .
 
 ## See also
 

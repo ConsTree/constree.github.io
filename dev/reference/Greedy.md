@@ -1,10 +1,10 @@
 # Greedy (extended majority-rule) consensus tree
 
-`Greedy()` computes the greedy consensus (Felsenstein ) , also termed
-the extended majority-rule consensus (Bryant 2003) . Distinct splits are
-considered in decreasing order of their frequency across the input
-trees, breaking ties arbitrarily; each is added to the growing consensus
-if it is compatible with every split already accepted.
+`Greedy()` computes the greedy consensus (Felsenstein 1993) , also
+termed the extended majority-rule consensus (Bryant 2003) . Distinct
+splits are considered in decreasing order of their frequency across the
+input trees, breaking ties arbitrarily; each is added to the growing
+consensus if it is compatible with every split already accepted.
 
 ## Usage
 
