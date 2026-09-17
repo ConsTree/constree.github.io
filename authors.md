@@ -10,9 +10,8 @@
   [](https://orcid.org/0000-0001-6859-8932)  
   Consensus algorithms (FACT, FACT2, FDCT)
 
-- **Wing-Kin Sung**. Author, copyright holder.
-  [](https://orcid.org/0000-0001-7806-7086)  
-  Consensus algorithms (FACT, FACT2, FDCT)
+- **Zhaoxian Li**. Author, copyright holder.  
+  Consensus algorithms (FACT)
 
 - **Ramesh Rajaby**. Author, copyright holder.
   [](https://orcid.org/0000-0001-9980-1913)  
@@ -20,6 +19,13 @@
 
 - **Chuanqi Shen**. Author, copyright holder.  
   Consensus algorithms (FACT)
+
+- **Wing-Kin Sung**. Author, copyright holder.
+  [](https://orcid.org/0000-0001-7806-7086)  
+  Consensus algorithms (FACT, FACT2, FDCT)
+
+- **Yutong Yang**. Author, copyright holder.  
+  Consensus algorithms (FDCT)
 
 ## Citation
 

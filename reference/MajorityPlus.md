@@ -1,8 +1,8 @@
 # Majority-rule (+) consensus tree
 
-`MajorityPlus()` computes the majority-rule (+) consensus (Dong et al.
-2010) , which displays each clade that occurs in more input trees than
-contradict it.
+`MajorityPlus()` computes the majority-rule (+) consensus, which
+displays each clade that occurs in more input trees than contradict it
+(Dong et al. 2010) .
 
 ## Usage
 

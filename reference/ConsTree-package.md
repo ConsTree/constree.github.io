@@ -39,10 +39,14 @@ Authors:
 - Jesper Jansson ([ORCID](https://orcid.org/0000-0001-6859-8932))
   (Consensus algorithms (FACT, FACT2, FDCT)) \[copyright holder\]
 
-- Wing-Kin Sung ([ORCID](https://orcid.org/0000-0001-7806-7086))
-  (Consensus algorithms (FACT, FACT2, FDCT)) \[copyright holder\]
+- Zhaoxian Li (Consensus algorithms (FACT)) \[copyright holder\]
 
 - Ramesh Rajaby ([ORCID](https://orcid.org/0000-0001-9980-1913))
   (Consensus algorithms (FACT2, FDCT)) \[copyright holder\]
 
 - Chuanqi Shen (Consensus algorithms (FACT)) \[copyright holder\]
+
+- Wing-Kin Sung ([ORCID](https://orcid.org/0000-0001-7806-7086))
+  (Consensus algorithms (FACT, FACT2, FDCT)) \[copyright holder\]
+
+- Yutong Yang (Consensus algorithms (FDCT)) \[copyright holder\]
