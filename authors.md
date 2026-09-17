@@ -32,13 +32,13 @@
 Source:
 [`inst/CITATION`](https://github.com/ms609/ConsTree/blob/main/inst/CITATION)
 
-Smith et al. (2026). ConsTree: fast algorithms for phylogenetic
+Smith, MR et al. (2026). ConsTree: fast algorithms for phylogenetic
 consensus trees. Comprehensive R Archive Network, Vienna. doi:
 10.32614/CRAN.package.ConsTree
 
     @Manual{Smith2026,
       title = {ConsTree: fast algorithms for phylogenetic consensus trees},
-      author = {Martin R. Smith and Jesper Jansson and Wing-Kin Sung and Ramesh Rajaby and Chuanqi Shen},
+      author = {Martin R. Smith and Jesper Jansson and Zhaoxian Li and Ramesh Rajaby and Chuanqi Shen and Wing-Kin Sung and Yutong Yang},
       note = {R package version 1.0.1},
       year = {2026},
       doi = {10.32614/CRAN.package.ConsTree},
